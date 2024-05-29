@@ -22,6 +22,8 @@ def show_session(key):
     }), 200)
 
     response.set_cookie('mouse', 'Cookie')
+    # return response.set_cookie('mouse', 'Cookie')
+    # can't return line 25 as one line...
 
     return response
 
